@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: none;
+}
+
+html, body{
+    height: 100%;
+    height: 100%; 
+    background-color: #fff;
+}
+
+
+.container_geral{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background-color: #0c85ad;
+}
+
+.sidebar h1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2.2em;    
+    font-weight: bolder;
+    color: #333;
+    
+}
+
+.sidebar .perfil{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar .perfil img{
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar .perfil .nomeCpt{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+.sidebar nav ul{
+    width: 100%;
+    list-style: none;
+}
+
+.sidebar nav ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar nav ul li a{
+    padding: 20px 10px;
+    font-size: 1em;
+    color: black     ;
+    text-decoration: none;
+}
+
+
+.sidebar nav ul li a:hover{
+    background-color: green;
+    color: white;
+}
+
+section.container{
+    width: 85%;
+    margin-left: 250px;
+    height: 100%;
+}
+
+
+section.container .topo{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 15px;
+    background-color: #0c85ad;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.container > .topo > p{
+    font-size: 1.6em;
+    margin: 0 40px;
+    font-style: italic;
+}
+
+
+section.container > .topo > h1{
+    padding: 10px;
+    font-style: italic;
+    color: white;
+}
+
+section.container .topo h1 span{
+    color: green;
+}
+
+section.container .resto{
+    width: 98%;
+    height: calc(100% - 50px);
+    padding: 10px;
+    margin: 0px 1%;
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+}
+
+section.container .conteudos .turma a{
+    text-decoration: none;
+    color: black;
+}
+
+section.container .resto .conteudos{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap ;
+    margin: 20px;
+}
+
+section.container .resto .conteudos .turma{
+    width: calc(33.3% - 20px);
+    min-width: (33.3% - 20px);
+    height: 268px;
+    margin: 20px 10px;
+    background-color: #fff  ;
+    border-radius: 10px;
+}
+
+
+section.container .resto .conteudos .turma img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+section.container .resto .conteudos .turma h1{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #333;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.custom_input {
+	display: flex;
+	align-items: center;
+	position: relative;
+	max-width: 100%;
+}
+
+.input {
+	font-size: 18px;
+	padding: 5px 10px;
+	width: 800px;
+	padding-left: 35px;
+	outline: none;
+	background: #FFFFFF;
+	color: #000000;
+	border-radius: 5px;
+}
+
+
+.input::placeholder {
+	color: #DDDDDD;
+}
+
+.svg_icon {
+	position: absolute;
+	left: 10px;
+	fill: #4660DC;
+	width: 18px;
+	height: 18px;
+}
+    
